@@ -4,7 +4,10 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Learning React Native via expo</Text>
+      <Text>Learning React Native via 
+        <Text style={{color: 'blue'}}> Expo</Text>
+      </Text>
+
       <StatusBar style="auto" />
     </View>
   );
